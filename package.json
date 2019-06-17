@@ -1,0 +1,43 @@
+{
+  "name": "ali-oss-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ali OSS Manager",
+  "main": "main.js",
+  "repository": "https://github.com/YanceyOfficial/Ali-OSS-Manager",
+  "keywords": [
+    "Electron",
+    "Ali OSS",
+    "Management Tools"
+  ],
+  "author": "Yancey Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "nodemon --watch main.js --exec electron ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^4.0.4",
+    "electron-builder": "^20.38.5",
+    "electron-devtools-installer": "^2.2.4",
+    "nodemon": "1.18.10"
+  }
+}
