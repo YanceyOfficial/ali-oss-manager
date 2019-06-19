@@ -2,9 +2,9 @@
   "name": "ali-oss-manager",
   "version": "0.1.0",
   "private": true,
-  "description": "Ali OSS Manager",
+  "description": "Desktop management platform for Ali OSS.",
   "main": "main.js",
-  "repository": "https://github.com/YanceyOfficial/Ali-OSS-Manager",
+  "repository": "https://github.com/YanceyOfficial/ali-oss-manager",
   "keywords": [
     "Electron",
     "Ali OSS",
@@ -15,7 +15,7 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.5"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,9 +35,9 @@
   ],
   "devDependencies": {
     "devtron": "^1.4.0",
-    "electron": "^4.0.4",
+    "electron": "^5.0.4",
     "electron-builder": "^20.38.5",
     "electron-devtools-installer": "^2.2.4",
-    "nodemon": "1.18.10"
+    "nodemon": "1.19.1"
   }
 }
