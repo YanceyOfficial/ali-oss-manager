@@ -61,7 +61,7 @@ function createWindow() {
   mainWindow.setTouchBar(touchBar);
 
   // 这个地方可以搞个上传进度条 很爽
-  mainWindow.setProgressBar(0.5);
+  mainWindow.setProgressBar(0.7);
 }
 
 // This method will be called when Electron has finished

@@ -27,6 +27,7 @@ class App extends React.Component<{}, {}> {
         我爱山本彩
         <p>{process.title}</p>
         <button onClick={this.showNotice}>点我显示 Notification</button>
+        <p>without you</p>
       </div>
     );
   }
