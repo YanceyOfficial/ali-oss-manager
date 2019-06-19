@@ -15,6 +15,13 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 768,
+    webPreferences: {
+      javascript: true,
+      plugins: true,
+      nodeIntegration: true, // 是否集成 Nodejs
+      webSecurity: false,
+      preload: path.join(__dirname, './preload.js'), // 但预加载的 js 文件内仍可以使用 Nodejs 的 API
+    },
   });
 
   // and load the index.html of the app.
@@ -53,10 +60,8 @@ function createWindow() {
 
   mainWindow.setTouchBar(touchBar);
 
-
   // 这个地方可以搞个上传进度条 很爽
-  mainWindow.setProgressBar(0.5)
-
+  mainWindow.setProgressBar(0.5);
 }
 
 // This method will be called when Electron has finished

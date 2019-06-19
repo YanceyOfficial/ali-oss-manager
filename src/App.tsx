@@ -1,22 +1,27 @@
-import React, { Component } from 'react';
-import { notify } from './tools';
+import React from 'react';
+import { notify } from './shared/tools';
 import './App.css';
 
-class App extends Component {
-  constructor() {
-    super();
+// const electron = window.require('electron');
+// const fs = electron.remote.require('fs');
+// const ipcRenderer = electron.ipcRenderer;
+
+class App extends React.Component<{}, {}> {
+  constructor(props: {}) {
+    super(props);
     this.showNotice = this.showNotice.bind(this);
   }
-  componentDidMount(){
-  }
-  showNotice() {
+
+  public componentDidMount() {}
+
+  public showNotice() {
     notify(
       'Hello',
       '欢迎使用 Ali OSS 管理平台桌面版',
       'https://js.yanceyleo.com/logo.png',
     );
   }
-  render() {
+  public render() {
     return (
       <div className='App'>
         我爱山本彩
