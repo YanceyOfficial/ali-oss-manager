@@ -1,6 +1,5 @@
 import React from 'react';
-import { notify } from './shared/tools';
-import './App.css';
+import { notify } from '../shared/tools';
 
 // const electron = window.require('electron');
 // const fs = electron.remote.require('fs');
@@ -24,7 +23,7 @@ class App extends React.Component<{}, {}> {
   public render() {
     return (
       <div className='App'>
-        我爱山本彩
+        React 是世界上最好的框架
         <p>{process.title}</p>
         <button onClick={this.showNotice}>点我显示 Notification</button>
         <p>without you</p>
