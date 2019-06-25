@@ -23,7 +23,7 @@ class App extends React.Component<{}, {}> {
   public render() {
     return (
       <div className='App'>
-        React 是世界上最好的框架
+        我爱山本彩
         <p>{process.title}</p>
         <button onClick={this.showNotice}>点我显示 Notification</button>
         <p>without you</p>
