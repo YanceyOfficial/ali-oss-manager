@@ -13,6 +13,7 @@ class App extends React.Component<{}, {}> {
 
   public componentDidMount() {}
 
+  // Notification
   public showNotice() {
     notify(
       'Hello',
